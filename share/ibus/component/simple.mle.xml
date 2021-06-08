@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component>
+    <name>org.freedesktop.IBus.Simple</name>
+    <description>A table based simple engine</description>
+    <exec>/usr/lib/ibus/ibus-engine-simple</exec>
+    <version>1.5.23.20201112</version>
+    <author>Peng Huang &lt;shawn.p.huang@gmail.com&gt;</author>
+    <license>GPL</license>
+    <homepage>https://github.com/ibus/ibus/wiki</homepage>
+    <textdomain>ibus</textdomain>
+    <engines>
+        <engine>
+          <name>xkb:mle:dvorak:eng</name>
+          <language>en</language>
+          <license>MIT</license>
+          <author>emily Crandall Fleischman&lt;emilycf@mit.edu&gt;</author>
+          <layout>mle</layout>
+          <layout_variant>dvorak</layout_variant>
+          <longname>English (mle Dvorak)</longname>
+          <description>English (mle Dvorak)</description>
+          <icon>ibus-keyboard</icon>
+          <rank>99</rank>
+        </engine>
+        <engine>
+          <name>xkb:mle:layman:eng</name>
+          <language>en</language>
+          <license>MIT</license>
+          <author>emily Crandall Fleischman&lt;emilycf@mit.edu&gt;</author>
+          <layout>mle</layout>
+          <layout_variant>layman</layout_variant>
+          <longname>English (mle Layman)</longname>
+          <description>English (mle Layman)</description>
+          <icon>ibus-keyboard</icon>
+          <rank>99</rank>
+        </engine>
+    </engines>
+</component>

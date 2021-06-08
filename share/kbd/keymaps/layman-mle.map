@@ -1,0 +1,83 @@
+! mle Layman keymap
+keymaps 0-2,4-6,8-9,12
+alt_is_meta
+include "linux-with-two-alt-keys.inc"
+strings as usual
+! --------------------------------------------------------------------------
+! Row 1
+! --------------------------------------------------------------------------
+keycode   1 = Escape
+! --------------------------------------------------------------------------
+! Row 2
+! --------------------------------------------------------------------------
+keycode  41 = grave          asciitilde
+keycode   2 = exclam         percent
+keycode   3 = question       dollar
+keycode   4 = bracketleft    underscore
+keycode   5 = bracketleft    numbersign
+keycode   6 = parenleft      ampersand
+keycode   7 = less           asciicircum
+keycode   8 = greater        bar
+keycode   9 = parenright     at
+keycode  10 = bracketright   one
+keycode  11 = braceright     two
+keycode  12 = asterisk       three
+keycode  13 = plus           four
+keycode  14 = Delete
+! --------------------------------------------------------------------------
+! Row 3
+! --------------------------------------------------------------------------
+keycode  15 = Tab
+keycode  16 = apostrophe     quotedbl
+keycode  17 = w
+keycode  18 = d
+keycode  19 = p
+keycode  20 = b
+keycode  21 = y
+keycode  22 = k
+keycode  23 = m
+keycode  24 = o
+keycode  25 = period         five
+keycode  26 = slash          six
+keycode  27 = equal          seven
+keycode  43 = backslash      eight
+keycode  28 = Return
+! --------------------------------------------------------------------------
+! Row 4
+! --------------------------------------------------------------------------
+keycode  58 = Control
+keycode  30 = i
+keycode  31 = e
+keycode  32 = c
+keycode  33 = s
+keycode  34 = g
+keycode  35 = h
+keycode  36 = a
+keycode  37 = n
+keycode  38 = r
+keycode  39 = comma          zero
+keycode  40 = minus          nine
+! --------------------------------------------------------------------------
+! Row 5
+! --------------------------------------------------------------------------
+keycode  42 = Shift
+keycode  44 = semicolon      colon
+keycode  45 = x
+keycode  46 = t
+keycode  47 = f
+keycode  48 = j
+keycode  49 = v
+keycode  50 = u
+keycode  51 = l
+keycode  52 = z
+keycode  53 = q
+keycode  54 = Shift
+! --------------------------------------------------------------------------
+! Row 6
+! --------------------------------------------------------------------------
+keycode  29 = Control
+keycode  56 = Alt
+keycode  57 = space
+keycode  97 = Control
+keycode  99 = Alt                        # SysRq/PrintScrn
+keycode 100 = Compose

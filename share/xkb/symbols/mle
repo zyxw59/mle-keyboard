@@ -1,0 +1,104 @@
+default partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    include "us(dvorak)"
+    name[Group1] = "English (mle Dvorak)";
+
+    //             Unmodified       Shift           AltGr            Shift+AltGr
+    // symbols row, left side
+    key <TLDE> { [ grave,           asciitilde,     dead_grave,      dead_tilde ] };
+    key <AE01> { [ exclam,          percent,        exclamdown                  ] };
+    key <AE02> { [ question,        7,              questiondown                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE03> { [ braceleft,       5                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE04> { [ bracketleft,     3                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE05> { [ parenleft,       1                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE06> { [ less,            9,              guillemotleft,   U201C      ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+
+    // symbols row, right side
+    key <AE07> { [ greater,         0,              guillemotright,  U201D      ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE08> { [ parenright,      2,              onehalf                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE09> { [ bracketright,    4                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE10> { [ braceright,      6                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE11> { [ asterisk,        8                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE12> { [ plus,            numbersign,     plusminus                   ] };
+    key <BKSP> { [ BackSpace,       BackSpace                                   ] };
+
+    // upper row, left side
+    key <AD01> { [ apostrophe,      quotedbl,       dead_acute,      dead_diaeresis ] };
+    key <AD02> { [ comma,           ampersand                                   ] };
+    key <AD03> { [ period,          at                                          ] };
+
+    // upper row, right side
+    key <AD11> { [ slash,           dollar                                      ] };
+    key <AD12> { [ equal,           asciicircum,    dead_circumflex, dead_caron ] };
+
+    // home row, left side
+
+    // home row, right side
+    key <AC11> { [ minus,           underscore,     hyphen,          endash     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <BKSL> { [ backslash,       bar                                         ] };
+
+    // lower row, left side
+    key <AB01> { [ semicolon,       colon,          dead_diaeresis              ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "layman" {
+    name[Group1] = "English (mle layman)";
+
+    //             Unmodified       Shift
+    // top row
+    key <TLDE> { [ grave,        asciitilde ] };
+    key <AE01> { [ exclam,       percent    ] };
+    key <AE02> { [ question,     dollar     ] };
+    key <AE03> { [ braceleft,    underscore ] };
+    key <AE04> { [ bracketleft,  numbersign ] };
+    key <AE05> { [ parenleft,    ampersand  ] };
+    key <AE06> { [ less,         asciicircum] };
+    key <AE07> { [ greater,      bar        ] };
+    key <AE08> { [ parenright,   at         ] };
+    key <AE09> { [ bracketright, 1          ] };
+    key <AE10> { [ braceright,   2          ] };
+    key <AE11> { [ asterisk,     3          ] };
+    key <AE12> { [ plus,         4          ] };
+    key <BKSP> { [ BackSpace,    BackSpace  ] };
+
+    // upper row
+    key <AD01> { [ apostrophe,   quotedbl   ] };
+    key <AD02> { [ w,            W          ] };
+    key <AD03> { [ d,            D          ] };
+    key <AD04> { [ p,            P          ] };
+    key <AD05> { [ b,            B          ] };
+    key <AD06> { [ y,            Y          ] };
+    key <AD07> { [ k,            K          ] };
+    key <AD08> { [ m,            M          ] };
+    key <AD09> { [ o,            O          ] };
+    key <AD10> { [ period,       5          ] };
+    key <AD11> { [ slash,        6          ] };
+    key <AD12> { [ equal,        7          ] };
+    key <BKSL> { [ backslash,    8          ] };
+
+    // home row
+    key <AC01> { [ i,            I          ] };
+    key <AC02> { [ e,            E          ] };
+    key <AC03> { [ c,            C          ] };
+    key <AC04> { [ s,            S          ] };
+    key <AC05> { [ g,            G          ] };
+    key <AC06> { [ h,            H          ] };
+    key <AC07> { [ a,            A          ] };
+    key <AC08> { [ n,            N          ] };
+    key <AC09> { [ r,            R          ] };
+    key <AC10> { [ comma,        0          ] };
+    key <AC11> { [ minus,        9          ] };
+
+    // lower row
+    key <AB01> { [ semicolon,    colon      ] };
+    key <AB02> { [ x,            X          ] };
+    key <AB03> { [ t,            T          ] };
+    key <AB04> { [ f,            F          ] };
+    key <AB05> { [ j,            J          ] };
+    key <AB06> { [ v,            V          ] };
+    key <AB07> { [ u,            U          ] };
+    key <AB08> { [ l,            L          ] };
+    key <AB09> { [ z,            Z          ] };
+    key <AB10> { [ q,            Q          ] };
+};
