@@ -1413,7 +1413,7 @@
     <action id="w">
       <when state="none" output="w" />
       <when state="grave" output="ẁ" />
-      <when state="greek" output="⍵" />
+      <when state="greek" output="ω" />
     </action>
     <action id="x">
       <when state="none" output="x" />
