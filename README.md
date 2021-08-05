@@ -2,19 +2,25 @@
 
 ## Linux
 
+To install all the files, run:
+```
+# cp -r usr/ /
+```
+
 ### X11
 
-Copy `share/xkb/symbols/mle` into `/usr/share/X11/xkb/symbols` and restart X.
+Copy `usr/share/X11/xkb/symbols/mle` into `/usr/share/X11/xkb/symbols` and
+restart X.
 To select the layout, use `setxkbmap -layout mle -variant layman` (or `-variant
 dvorak` if you prefer).
 
 If you use `ibus` to manage input methods, additionally copy
-`share/ibus/component/simple.mle.xml` into `/usr/share/ibus` and restart
-`ibus`.
+`usr/share/ibus/component/simple.mle.xml` into `/usr/share/ibus/component` and
+restart `ibus`.
 
 ### Virtual console
 
-Copy the desired keymap from `share/kbd/keymaps` into
+Copy the desired keymap from `usr/local/share/kbd/keymaps` into
 `/usr/local/share/kbd/keymaps` and run `sudo loadkeys
 /usr/local/share/kbd/keymaps/layman-mle.map` (replacing `layman-mle.map` with
 `dvorak-mle.map` if you prefer).
