@@ -96,7 +96,7 @@
         <!-- upper row -->
       <key code="12" action="quote" />
       <key code="13" action="W" />
-      <key code="14" action="D" />
+      <key code="14" action="C" />
       <key code="15" action="P" />
       <key code="17" action="B" />
       <key code="16" action="Y" />
@@ -111,10 +111,10 @@
         <!-- home row -->
       <key code="0"  action="I" />
       <key code="1"  action="E" />
-      <key code="2"  action="C" />
+      <key code="2"  action="H" />
       <key code="3"  action="S" />
-      <key code="5"  action="G" />
-      <key code="4"  action="H" />
+      <key code="5"  action="D" />
+      <key code="4"  action="G" />
       <key code="38" action="A" />
       <key code="40" action="N" />
       <key code="37" action="R" />
@@ -210,7 +210,7 @@
         <!-- upper row -->
       <key code="12" action="apostrophe" />
       <key code="13" action="w" />
-      <key code="14" action="d" />
+      <key code="14" action="c" />
       <key code="15" action="p" />
       <key code="17" action="b" />
       <key code="16" action="y" />
@@ -225,10 +225,10 @@
         <!-- home row -->
       <key code="0"  action="i" />
       <key code="1"  action="e" />
-      <key code="2"  action="c" />
+      <key code="2"  action="h" />
       <key code="3"  action="s" />
-      <key code="5"  action="g" />
-      <key code="4"  action="h" />
+      <key code="5"  action="d" />
+      <key code="4"  action="g" />
       <key code="38" action="a" />
       <key code="40" action="n" />
       <key code="37" action="r" />
@@ -321,7 +321,7 @@
         <!-- upper row -->
       <key code="12" action="apostrophe" />
       <key code="13" action="w" />
-      <key code="14" action="d" />
+      <key code="14" action="c" />
       <key code="15" action="p" />
       <key code="17" action="b" />
       <key code="16" action="y" />
@@ -336,10 +336,10 @@
         <!-- home row -->
       <key code="0"  action="i" />
       <key code="1"  action="e" />
-      <key code="2"  action="c" />
+      <key code="2"  action="h" />
       <key code="3"  action="s" />
-      <key code="5"  action="g" />
-      <key code="4"  action="h" />
+      <key code="5"  action="d" />
+      <key code="4"  action="g" />
       <key code="38" action="a" />
       <key code="40" action="n" />
       <key code="37" action="r" />
@@ -432,7 +432,7 @@
         <!-- upper row -->
       <key code="12" action="quote" />
       <key code="13" action="W" />
-      <key code="14" action="D" />
+      <key code="14" action="C" />
       <key code="15" action="P" />
       <key code="17" action="B" />
       <key code="16" action="Y" />
@@ -447,10 +447,10 @@
         <!-- home row -->
       <key code="0"  action="I" />
       <key code="1"  action="E" />
-      <key code="2"  action="C" />
+      <key code="2"  action="H" />
       <key code="3"  action="S" />
-      <key code="5"  action="G" />
-      <key code="4"  action="H" />
+      <key code="5"  action="D" />
+      <key code="4"  action="G" />
       <key code="38" action="A" />
       <key code="40" action="N" />
       <key code="37" action="R" />
