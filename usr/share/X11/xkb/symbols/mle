@@ -65,7 +65,7 @@ xkb_symbols "layman" {
     // upper row
     key <AD01> { [ apostrophe,   quotedbl   ] };
     key <AD02> { [ w,            W          ] };
-    key <AD03> { [ d,            D          ] };
+    key <AD03> { [ c,            C          ] };
     key <AD04> { [ p,            P          ] };
     key <AD05> { [ b,            B          ] };
     key <AD06> { [ y,            Y          ] };
@@ -80,10 +80,10 @@ xkb_symbols "layman" {
     // home row
     key <AC01> { [ i,            I          ] };
     key <AC02> { [ e,            E          ] };
-    key <AC03> { [ c,            C          ] };
+    key <AC03> { [ h,            H          ] };
     key <AC04> { [ s,            S          ] };
-    key <AC05> { [ g,            G          ] };
-    key <AC06> { [ h,            H          ] };
+    key <AC05> { [ d,            D          ] };
+    key <AC06> { [ g,            G          ] };
     key <AC07> { [ a,            A          ] };
     key <AC08> { [ n,            N          ] };
     key <AC09> { [ r,            R          ] };
